@@ -5,7 +5,7 @@ import PostForm from "./PostForm.vue";
 import TextAreaField from "./TextAreaField.vue";
 export default {
 
-  name: "Sidebar",
+  name: "BarraLateral",
   components: {
     // eslint-disable-next-line vue/no-unused-components
     InputField,

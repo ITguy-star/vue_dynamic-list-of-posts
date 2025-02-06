@@ -1,11 +1,11 @@
 <script>
 import PostList from "./components/PostList.vue";
-import Header from "./components/Header.vue";
+import AppHeader from "./components/Header.vue";
 import LoginPage from "./components/LoginPage.vue";
 export default {
   components: {
     PostList,
-    Header,
+    AppHeader,
     LoginPage,
   },
   data() {
@@ -44,7 +44,7 @@ export default {
   <LoginPage v-if="isActiveLoginPage" @addUser="addUser" />
 
   <template v-else>
-    <Header :user="user" @logout="logout" />
+    <AppHeader :user="user" @logout="logout" />
 
     <main class="section">
       <div class="container">

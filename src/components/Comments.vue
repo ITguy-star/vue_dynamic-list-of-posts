@@ -4,7 +4,7 @@ import AddCommentForm from "./AddCommentForm.vue";
 import Loader from "./Loader.vue";
 export default {
 
-  name: "Comments",
+  name: "ComentariosVarios",
   components: {
     Loader,
     AddCommentForm,
